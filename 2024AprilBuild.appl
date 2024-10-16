@@ -49,7 +49,7 @@
       <parameter id='SRCOPTRES' val=''/>
       <parameter id='STATE' val='1'/>
       <parameter id='MODE' val='3'/>
-      <parameter id='FXENABLE' val='0'/>
+      <parameter id='FXENABLE' val='1'/>
       <parameter id='PSTENABLE' val='1'>
        <metadata metaid='read_only' val='false'/>
       </parameter>
@@ -84,9 +84,9 @@
         <parameter id='SFTBTM' val='0'/>
        </object>
        <object type='mixer::Transform2D' name='Transform2D' id='1000004945'>
-        <parameter id='ENABLED' val='0'/>
+        <parameter id='ENABLED' val='1'/>
         <parameter id='ROT' val='0'/>
-        <parameter id='SCALE' val='1'/>
+        <parameter id='SCALE' val='1.001'/>
         <parameter id='POS' val='0/0'/>
         <parameter id='ROTORIG' val='0/0'/>
         <parameter id='CUBIC' val='0'/>
